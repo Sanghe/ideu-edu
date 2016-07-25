@@ -144,6 +144,14 @@ html, body, {
 	border-bottom: 1px solid #fff;
 	border-top: 1px solid #585858;
 
+	.container {
+		text-align: center;
+
+		@media screen and (min-width: 645px) {
+			text-align: left;
+		}
+	}
+
 	h2 {
 		display: inline-block;
 		margin: 0 0 5px;
