@@ -6,11 +6,12 @@ html, body {
 .edu-content .container {
   margin: 0 auto;
   max-width: 1500px;
-  padding: 25px 20px;
-  text-align: center; }
-  @media screen and (min-width: 645px) {
-    .edu-content .container {
-      text-align: left; } }
+  padding: 25px 20px; }
+  .edu-content .container * {
+    text-align: center; }
+    @media screen and (min-width: 645px) {
+      .edu-content .container * {
+        text-align: left; } }
 .edu-content h1, .edu-content h2, .edu-content ul, .edu-content p {
   padding: 0;
   margin: 0; }
@@ -27,10 +28,11 @@ html, body {
   background-size: cover;
   color: #fff;
   font-size: 1em;
-  text-align: center;
   text-transform: uppercase; }
   .edu-title h1 {
-    padding: 50px 0; }
+    font-size: 50px;
+    padding: 50px 0;
+    text-align: center; }
 
 /* ABOUT */
 .edu-about {
@@ -138,6 +140,7 @@ html, body {
     .edu-speaker .speaker-info ul li {
       margin: 10px 0 10px 10px;
       text-indent: -10px;
-      line-height: 18px; }
+      line-height: 18px;
+      text-align: left; }
       .edu-speaker .speaker-info ul li:before {
         content: "- "; }
